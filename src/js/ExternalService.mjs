@@ -5,7 +5,7 @@ export default class ExternalService {
   constructor(country = "us") {
     this.country = country
   }
-  async getTopHeadlines() {
+  async getArticles() {
     const res  = await fetch(baseURL + `top-headlines?${this.urlParams()}`, { headers: this.headers(), mode: "no-cors" })
     const data = await res.json()
 
