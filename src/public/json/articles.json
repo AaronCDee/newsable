@@ -1,0 +1,253 @@
+{
+  "status": "ok",
+  "totalResults": 55,
+  "articles": [
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Joseph Menn",
+      "title": "U.K. orders Apple to let it spy on users’ encrypted accounts - The Washington Post",
+      "description": "Secret order requires blanket access to protected cloud backups around the world, which if implemented would undermine Apple’s privacy pledge to its users.",
+      "url": "https://www.washingtonpost.com/technology/2025/02/07/apple-encryption-backdoor-uk/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FJXUJCXM3RESLMUP6O5FBLRJZQ.jpg&w=1440",
+      "publishedAt": "2025-02-08T03:34:01Z",
+      "content": "Security officials in the United Kingdom have demanded that Apple create a back door allowing them to retrieve all the content any Apple user worldwide has uploaded to the cloud, people familiar with… [+9467 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Dylan Tokar, Brian Schwartz",
+      "title": "Exclusive | Russell Vought Taking Over as New Acting Head of CFPB - The Wall Street Journal",
+      "description": "Trump fired the CFPB’s Biden-era leader earlier this week",
+      "url": "https://www.wsj.com/finance/regulation/russell-vought-taking-over-as-new-acting-head-of-cfpb-9650d338",
+      "urlToImage": "https://images.wsj.net/im-35072954/social",
+      "publishedAt": "2025-02-08T01:50:00Z",
+      "content": "Russell Vought took over the Consumer Financial Protection Bureau Friday night, adding another twist at the banking watchdog that has landed in the crosshairs of Republicans and \r\nElon Musk.Vought, w… [+472 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "ABC News",
+      "title": "'Combative' man restrained by fellow passengers on Frontier Airlines flight after breaking window - ABC News",
+      "description": null,
+      "url": "https://abcnews.go.com/US/combative-man-restrained-fellow-passengers-frontier-airlines-flight/story?id\\\\u003d118526210",
+      "urlToImage": null,
+      "publishedAt": "2025-02-08T01:46:09Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "politico",
+        "name": "Politico"
+      },
+      "author": "Holly Otterbein, Katy O'Donnell",
+      "title": "‘CFPB RIP’: Elon Musk is already descending on his next target - POLITICO",
+      "description": "Republicans have long criticized the Consumer Financial Protection Bureau. Musk’s allies have entered the building and are embedded in the agency.",
+      "url": "https://www.politico.com/news/2025/02/07/elon-musk-team-cfpb-00203119",
+      "urlToImage": "https://images.politicopro.com/images/financial_services/130603_cfpb_building_mahaskey.jpg",
+      "publishedAt": "2025-02-07T23:33:00Z",
+      "content": "Musk posted CFPB RIP with a tombstone emoji on his social media site X a few hours later, raising the prospect that the consumer protection agency could be the next U.S. Agency for International Deve… [+5458 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "DIDI TANG, HALELUYA HADERO",
+      "title": "Trump pauses tariffs on millions of low-value packages from China - The Associated Press",
+      "description": "President Donald Trump has paused the imposition of tariffs on small-value packages arriving from China. It's apparently to give federal agencies time to sort out how to process millions of such shipments that have come through the U.S. border every day witho…",
+      "url": "https://apnews.com/article/tariffs-small-packages-trump-china-deminimis-6d308f4b2340c27ff0b069e05bbe7ffd",
+      "urlToImage": "https://dims.apnews.com/dims4/default/1f15dc9/2147483647/strip/true/crop/4910x2762+3+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fcb%2F6a%2F7ad388812e3198d91d3addeebaf2%2Fcef97309feef4e1ca067448aa75fac19",
+      "publishedAt": "2025-02-07T23:12:00Z",
+      "content": "WASHINGTON (AP) President Donald Trump has paused imposing tariffs on small-value packages arriving from China, apparently to give federal agencies time to sort out how to process millions of such sh… [+3784 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Julie Bort",
+      "title": "Anduril in talks to raise up to $2.5B at $28B valuation - TechCrunch",
+      "description": "Just six months after defense tech Anduril raised a massive $1.5 billion round that valued the company at $14 billion, it's in talks to raise another $2.5",
+      "url": "https://techcrunch.com/2025/02/07/anduril-in-talks-to-raise-up-to-2-5b-at-28b-valuation/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1728513578-e.jpg?resize=1200,800",
+      "publishedAt": "2025-02-07T22:40:44Z",
+      "content": "Just six months after defense tech Anduril raised a massive $1.5 billion round that valued the company at $14 billion, it’s in talks to raise another $2.5 billion, at a valuation of up to $28 billion… [+669 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Denver Post"
+      },
+      "author": "Katie Langford",
+      "title": "Colorado Tesla dealership vandalized in arson attempt, police say - The Denver Post",
+      "description": "A Colorado Tesla dealership was vandalized after someone tried to set it on fire early Friday morning and left graffiti that was “offensive and hateful in nature,” Loveland police said.",
+      "url": "https://www.denverpost.com/2025/02/07/colorado-tesla-vandalism-arson-elon-musk-donald-trump-nazi-cars/",
+      "urlToImage": "https://www.denverpost.com/wp-content/uploads/2025/02/tdp-L-TeslaGraffiti-js-0208_219255742.jpg?w=1024&h=683",
+      "publishedAt": "2025-02-07T22:20:28Z",
+      "content": "A Colorado Tesla dealership was vandalized after someone tried to set it on fire early Friday morning and left graffiti that was “offensive and hateful in nature,” Loveland police said.\r\nOfficers res… [+1358 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Motley Fool"
+      },
+      "author": "Harsh Chauhan",
+      "title": "Where Will Meta Platforms Stock Be in 3 Years? - The Motley Fool",
+      "description": "",
+      "url": "https://www.fool.com/investing/2025/02/07/where-will-meta-platforms-stock-be-in-3-years/",
+      "urlToImage": "https://g.foolcdn.com/editorial/images/806213/person-holding-smartphone-smiling.jpg",
+      "publishedAt": "2025-02-07T22:15:00Z",
+      "content": "Meta Platforms(META 0.35%) stock has been in fine form on the market over the past three years, delivering healthy gains of 116% to investors and outperforming the 37% increase in the Nasdaq Composit… [+4361 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Financial Times"
+      },
+      "author": "Amanda Chu, Peter Wells, Demetri Sevastopulo, Leo Lewis",
+      "title": "Donald Trump says Nippon Steel has dropped plan to buy US Steel - Financial Times",
+      "description": "US president warns he could hit Japan with tariffs after vowing to place levies on imports from Canada and Mexico",
+      "url": "https://www.ft.com/content/959780f5-e1c0-4264-b73b-45995b4dfa7d",
+      "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F91d31035-80df-4081-ba17-ded217bae5d6.jpg?source=next-barrier-page",
+      "publishedAt": "2025-02-07T21:53:55Z",
+      "content": "FT newspaper delivered Monday-Saturday, plus FT Digital Edition delivered to your device Monday-Saturday.\r\n<ul><li></li>Weekday Print Edition<li></li>FT Weekend<li></li>FT Digital Edition<li>Global n… [+105 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Russell Leung",
+      "title": "Beauty stocks post major losses after a week of worrying results - CNBC",
+      "description": "Several beauty stocks tanked this week, as companies such as E.l.f. Beauty and Estee Lauder reported disappointing earnings and cut guidance.",
+      "url": "https://www.cnbc.com/2025/02/07/beauty-stocks-post-major-losses.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108098050-1738787012467-gettyimages-2197839078-esteelauder584426_rzcw45cs.jpeg?v=1738787151&w=1920&h=1080",
+      "publishedAt": "2025-02-07T21:40:53Z",
+      "content": "Several beauty stocks posted major losses this week, as companies such as E.l.f. Beauty and Estee Lauder reported disappointing earnings and cut guidance.\r\nE.l.f. closed out its worst week since Augu… [+2172 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Motor1 "
+      },
+      "author": "Christopher Smith",
+      "title": "Porsche Is Pivoting Back to Combustion. It Will Cost Them Dearly - Motor1 ",
+      "description": "Porsche will have to spend millions of dollars to change course on its EV plans. Here's a look at what the company expects for 2025.",
+      "url": "https://www.motor1.com/news/750016/porsche-pivoting-combustion-cost-dearly/",
+      "urlToImage": "https://cdn.motor1.com/images/mgl/BXe82Z/s1/porsche-macan-4s-2024.jpg",
+      "publishedAt": "2025-02-07T21:30:27Z",
+      "content": "Porsche, like many other automakers right now, is taking a hard look at the future and reevaluating its plans. Specifically, that means dialing back the electric push in favor of more combustion powe… [+1700 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Investor's Business Daily"
+      },
+      "author": "Investor's Business Daily",
+      "title": "Stock Market Today: Dow Jones Sinks, But Nasdaq Hit Harder; Uber Gets Ackman Lift (Live Coverage) - Investor's Business Daily",
+      "description": null,
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-nasdaq-sp500-palantir-stock-tesla-stock/",
+      "urlToImage": null,
+      "publishedAt": "2025-02-07T21:28:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Lucas Ropek",
+      "title": "DOGE Is Coming for Your Social Security, States Prepare to Sue - Gizmodo",
+      "description": "As Musk's group heads to more agencies, more legal challenges are cropping up.",
+      "url": "https://gizmodo.com/doge-is-coming-for-your-social-security-states-prepare-to-sue-2000561046",
+      "urlToImage": "https://gizmodo.com/app/uploads/2025/01/Elon-Musk-holding-a-cup-of-coffee.jpg",
+      "publishedAt": "2025-02-07T21:21:30Z",
+      "content": "Elon Musk’s Department of Government Efficiency continues to tear through the federal government like a virus. DOGE has moved from one bureaucratic organ to the next, stopping at each juncture to fir… [+3860 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Treasury.gov"
+      },
+      "author": null,
+      "title": "Secretary Bessent Announces Intention to Appoint First Deputy Comptroller of the Office of the Comptroller of the Currency - Treasury",
+      "description": "WASHINGTON – Secretary of the Treasury Scott Bessent today announced his intention to appoint Rodney E. Hood as a Deputy Comptroller and to designate him the First Deputy Comptroller of the Office of the Comptroller of the Currency (OCC). In this role, Mr. Ho…",
+      "url": "https://home.treasury.gov/news/press-releases/sb0016",
+      "urlToImage": "https://home.treasury.gov/system/files/291/treasury-preview-1900x950.jpg",
+      "publishedAt": "2025-02-07T21:19:17Z",
+      "content": "WASHINGTON Secretary of the Treasury Scott Bessent today announced his intention to appoint Rodney E. Hood as a Deputy Comptroller and to designate him the First Deputy Comptroller of the Office of t… [+1714 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Barron's"
+      },
+      "author": "Barron's",
+      "title": "Nikola Stock Price Plunges 41% on Report It’s Nearing Bankruptcy - Barron's",
+      "description": null,
+      "url": "https://www.barrons.com/articles/nikola-stock-price-bankruptcy-489f3890",
+      "urlToImage": null,
+      "publishedAt": "2025-02-07T21:14:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "Ashley Rodriguez",
+      "title": "Nike is making a surprise comeback at the Super Bowl — and JPMorgan analysts broke the news - Business Insider",
+      "description": "Nike's Super Bowl 2025 commercial comes as the company looks to reverse a sales slump and elevate its iconic brands.",
+      "url": "https://www.businessinsider.com/nike-returns-super-bowl-commercial-reverse-sales-slump-2025-2",
+      "urlToImage": "https://i.insider.com/67a678e87bb3f854015c41da?width=1200&format=jpeg",
+      "publishedAt": "2025-02-07T20:53:00Z",
+      "content": "Nike is making a surprise return as a Super Bowl advertiser for the first time in 27 years.\r\nJPMorgan analysts stole Nike's thunder by sharing the news in a research note published Thursday following… [+2267 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "SFGate"
+      },
+      "author": "Stephen Council",
+      "title": "Trump guts watchdog that held Bay Area tech companies accountable - SFGATE",
+      "description": "Donald Trump has shut the work of the employment watchdog Office of Federal Contract Compliance Programs, despite its years of winning back pay for workers.",
+      "url": "https://www.sfgate.com/tech/article/trump-guts-tech-watchdog-office-20154275.php",
+      "urlToImage": "https://s.hdnux.com/photos/01/47/15/75/27057986/3/rawImage.jpg",
+      "publishedAt": "2025-02-07T20:49:19Z",
+      "content": "Elon Musk speaks with Donald Trump as they watch the launch of a SpaceX rocket on November 19, 2024 in Brownsville, Texas.\r\nBrandon Bell/Getty Images\r\nA federal civil rights watchdog that investigate… [+2704 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Barron's"
+      },
+      "author": "Barron's",
+      "title": "A Super Bowl Ad Sparks Controversy and Signals a New Era in U.S. Health - Barron's",
+      "description": null,
+      "url": "https://www.barrons.com/articles/super-bowl-ad-weight-loss-drugs-hims-stock-8c49193c",
+      "urlToImage": null,
+      "publishedAt": "2025-02-07T20:40:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Barron's"
+      },
+      "author": "Andrew Bary",
+      "title": "Palantir Stock’s Great Week, and a MicroStrategy Security to Buy Now - Barron's",
+      "description": "",
+      "url": "https://www.barrons.com/articles/palantir-microstrategy-buy-now-braves-0af4d7e9",
+      "urlToImage": "https://images.barrons.com/im-65574320/social",
+      "publishedAt": "2025-02-07T20:40:00Z",
+      "content": null
+    }
+  ]
+}
