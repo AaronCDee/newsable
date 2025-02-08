@@ -1,29 +1,27 @@
-const apiKey  = import.meta.env.VITE_NEWS_API_KEY
-const baseURL = "https://newsapi.org/v2/"
+const apiKey  = import.meta.env.VITE_CURRENTS_API_KEY
+const baseURL = "https://api.currentsapi.services/v1/"
 
 export default class ExternalService {
-  constructor(country = "us") {
-    this.country = country
+  constructor(language = "en", region = "US") {
+    this.language = language
+    this.region   = region
   }
-  async getTopHeadlines() {
-    const res  = await fetch(baseURL + `top-headlines?${this.urlParams()}`, { headers: this.headers() })
+
+  async getArticles() {
+    const res  = await fetch(baseURL + `search?${this.urlParams()}`)
     const data = await res.json()
 
     if (!res.ok) throw { ...data, error: Error("Error when fetching top headlines") }
 
-    return data.articles
+    return data.news
   }
 
   urlParams() {
     const params = new URLSearchParams()
-    params.set("country", this.country)
+    params.set("apiKey", apiKey)
+    params.set("language", this.language)
+    params.set("region", this.region)
 
     return params.toString()
-  }
-
-  headers() {
-    return {
-      "x-api-key": apiKey
-    }
   }
 }
