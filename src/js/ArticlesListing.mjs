@@ -6,7 +6,7 @@ export default class ArticlesListing {
     let articles      = []
 
     try {
-      articles = await newsService.getTopHeadlines()
+      articles = await newsService.getArticles()
     } catch (error) {
       console.error(error) // eslint-disable-line no-console
       this.renderError(error.message)
