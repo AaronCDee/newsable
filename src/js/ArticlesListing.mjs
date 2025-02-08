@@ -45,6 +45,6 @@ export default class ArticlesListing {
   }
 
   renderError(error) {
-    this.container().insertAdjacentHTML("There was an error loading articles: ")
+    this.container().insertAdjacentHTML("afterbegin", `There was an error loading articles: ${error}`)
   }
 }
