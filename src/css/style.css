@@ -28,6 +28,7 @@ body {
   justify-self: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background: #f3dfc1;
+  position: relative;
 }
 
 .headline {
@@ -58,6 +59,33 @@ body {
 
 .read-more:hover {
   text-decoration: underline;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.searchable {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 728px;
+  justify-content: center;
+  margin: 15px auto;
+}
+
+.search-input {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.socials {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 @media screen and (max-width: 768px) {
