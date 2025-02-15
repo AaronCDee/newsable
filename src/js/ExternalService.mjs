@@ -16,6 +16,15 @@ export default class ExternalService {
     return data.news
   }
 
+  async searchArticles(query) {
+    const res  = await fetch(baseURL + `search?${this.urlParams()}&keywords=${query}`)
+    const data = await res.json()
+
+    if (!res.ok) throw { ...data, error: Error(`Error when searching for articles including [${query}]`) }
+
+    return data.news
+  }
+
   urlParams() {
     const params = new URLSearchParams()
     params.set("apiKey", apiKey)
