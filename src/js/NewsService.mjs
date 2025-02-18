@@ -1,7 +1,7 @@
 const apiKey  = import.meta.env.VITE_CURRENTS_API_KEY
 const baseURL = "https://api.currentsapi.services/v1/"
 
-export default class ExternalService {
+export default class NewsService {
   constructor(language = "en", region = "US") {
     this.language = language
     this.region   = region

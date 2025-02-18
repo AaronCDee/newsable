@@ -1,4 +1,4 @@
-import ExternalService from "./ExternalService";
+import NewsService from "./NewsService";
 
 export default class ArticlesListing {
   async init() {
@@ -7,7 +7,7 @@ export default class ArticlesListing {
 
     this.searchButton.addEventListener("click", this.handleSearch.bind(this))
 
-    this.newsService = new ExternalService
+    this.newsService = new NewsService
     let articles     = []
 
     try {
