@@ -20,6 +20,7 @@ export default class ArticlesListing {
     }
 
     this.renderArticles(this.filterArticles(articles))
+    this.renderRecentSearches()
   }
 
   filterArticles(articles) {
@@ -58,10 +59,53 @@ export default class ArticlesListing {
     this.container().insertAdjacentHTML("afterbegin", `There was an error loading articles: ${error}`)
   }
 
+  addToRecentSearches(query) {
+    const recentSearches = JSON.parse(localStorage.getItem("recentSearches")) || []
+
+    if (!recentSearches.includes(query)) {
+      recentSearches.push(query)
+    }
+
+    localStorage.setItem("recentSearches", JSON.stringify(recentSearches))
+
+    this.renderRecentSearches()
+  }
+
+  renderRecentSearches() {
+    const recentSearchesContainer = document.querySelector(".recent-searches-container");
+    const recentSearchTerms       = document.querySelector(".recent-search-terms");
+    const recentSearches          = JSON.parse(localStorage.getItem("recentSearches")) || [];
+
+    if (recentSearches.length === 0) return;
+
+    recentSearchesContainer.classList.remove("hidden")
+    recentSearchTerms.innerHTML = "";
+    const html                  = recentSearches.map(query => this.recentSearchTemplate(query)).join("");
+    recentSearchTerms.insertAdjacentHTML("afterbegin", html);
+
+    const recentSearchElements = document.querySelectorAll(".recent-search");
+    recentSearchElements.forEach(recentSearchEl => {
+      recentSearchEl.addEventListener("click", this.handleRecentSearchClick.bind(this))
+    })
+  }
+
+  handleRecentSearchClick(e) {
+    const query = e.target.innerText
+    this.searchInput.value = query
+
+    this.handleSearch()
+  }
+
+  recentSearchTemplate(query) {
+    return `<a class="recent-search">${query}</a>`;
+  }
+
   async handleSearch() {
     const query = this.searchInput.value
 
     if (query === "" || query === null || query === undefined) return
+
+    this.addToRecentSearches(query)
 
     let articles = []
 
