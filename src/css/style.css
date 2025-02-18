@@ -88,6 +88,19 @@ body {
   right: 10px;
 }
 
+.weather-container {
+  background-color: #f3dfc1;
+  margin: 15px auto;
+  width: fit-content;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.weather-icon {
+  margin: 0 auto;
+  display: block;
+}
+
 @media screen and (max-width: 768px) {
   .articles-container {
     grid-template-columns: 1fr;
