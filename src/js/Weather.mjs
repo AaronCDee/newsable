@@ -2,19 +2,22 @@ import WeatherService from "./WeatherService.mjs";
 
 export default class Weather {
   async init() {
-    const weatherService = new WeatherService()
-    let weather          = {}
+    const weatherService = new WeatherService();
+    let weather          = {};
     try{
-      weather = await weatherService.getCurrentWeather()
+      weather = await weatherService.getCurrentWeather();
     } catch (error) {
       console.error(error)
+      this.renderError();
+
+      return;
     }
 
-    this.container().insertAdjacentHTML("afterbegin", this.template(weather))
+    this.container().insertAdjacentHTML("afterbegin", this.template(weather));
   }
 
   renderError() {
-
+    this.container().insertAdjacentHTML("afterbegin", "Couldn't fetch weather for your location...");
   }
 
   template(data) {
