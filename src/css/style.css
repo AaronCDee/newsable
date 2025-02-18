@@ -29,6 +29,41 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background: #f3dfc1;
   position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.recent-searches-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.recent-search-terms {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.recent-search {
+  text-decoration: dashed;
+  font-style: italic;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.recent-search:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
 }
 
 .headline {
@@ -94,6 +129,12 @@ body {
   width: fit-content;
   padding: 15px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.weather-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .weather-icon {
