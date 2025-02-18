@@ -2,6 +2,14 @@ import WeatherService from "./WeatherService.mjs";
 
 export default class Weather {
   async init() {
+    this.weatherModalOpenBtn  = document.querySelector(".weather-modal-btn")
+    this.weatherModalCloseBtn = document.querySelector(".weather-modal-close-btn")
+    this.weatherModalOverlay  = document.querySelector(".weather-modal-overlay")
+
+    this.weatherModalOverlay.addEventListener("click", this.closeModal.bind(this))
+    this.weatherModalCloseBtn.addEventListener("click", this.closeModal.bind(this))
+    this.weatherModalOpenBtn.addEventListener("click", this.openModal.bind(this))
+
     const weatherService = new WeatherService();
     let weather          = {};
     try{
@@ -13,7 +21,15 @@ export default class Weather {
       return;
     }
 
+    this.weatherModalOpenBtn.insertAdjacentHTML("afterbegin", this.btnTemplate(weather))
     this.container().insertAdjacentHTML("afterbegin", this.template(weather));
+  }
+
+  btnTemplate(data) {
+    const { weather } = data;
+    const iconUrl     = `https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`;
+
+    return `<img src="${iconUrl}" alt="${weather[0].description}" class="weather-icon" />`;
   }
 
   renderError() {
@@ -40,5 +56,13 @@ export default class Weather {
 
   container() {
     return document.querySelector(".weather-container");
+  }
+
+  closeModal() {
+    this.weatherModalOverlay.classList.remove("show-weather-modal")
+  }
+
+  openModal() {
+    this.weatherModalOverlay.classList.add("show-weather-modal")
   }
 }
